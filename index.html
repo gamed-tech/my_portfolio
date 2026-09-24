@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmed Korani | Front-End Developer</title>
+<meta name="description" content="Portfolio of Ahmed Korani, a front-end developer and computer science student in Alexandria, Egypt, working with React, Next.js and Flutter.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Ahmed Korani, home">AK</a>
+  <nav aria-label="Main">
+    <a href="#work">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="frame">
+      <span class="frame-name">Ahmed Korani</span>
+      <i class="h tl"></i><i class="h tr"></i><i class="h bl"></i><i class="h br"></i>
+      <div class="frame-grid">
+      <div class="copy">
+      <h1>I turn designs into fast, responsive interfaces.</h1>
+      <p class="lead">Front-end developer and computer science student in Alexandria, Egypt. I build with React and Next.js, and I've shipped full-stack projects in PHP, Java and C#.</p>
+      <div class="actions">
+        <a class="btn primary" href="#work">See my projects</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+      </div>
+      <figure class="portrait">
+        <img src="images/ahmed.jpg" width="900" height="1200" alt="Portrait of Ahmed Korani, smiling, in glasses, a black blazer and a white shirt" fetchpriority="high">
+      </figure>
+      </div>
+    </div>
+    <div class="cursor" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24"><path d="M3 2l7.5 19 2.6-8 8-2.6z" fill="currentColor"/></svg>
+      <span>Hire me</span>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <h2>Projects</h2>
+    <p class="sub">Select a project to see what I built.</p>
+
+    <details class="project" open>
+      <summary>
+        <span class="p-title">Full-Stack Web Project</span>
+        <span class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b><b>PHP</b><b>SQL</b></span>
+      </summary>
+      <div class="p-body">
+        <p>A dynamic website with a PHP back-end, where interactive JavaScript features talk to server-side data handling.</p>
+        <ul>
+          <li>Designed and connected a database layer that stores and manages user data.</li>
+          <li>Built for usability and performance, from the interface down to the queries.</li>
+        </ul>
+        <a class="link" href="https://github.com/">View code on GitHub</a>
+      </div>
+    </details>
+
+    <details class="project">
+      <summary>
+        <span class="p-title">Finance Tracker</span>
+        <span class="tags"><b>Java</b><b>JavaFX</b><b>Scene Builder</b></span>
+      </summary>
+      <div class="p-body">
+        <p>A desktop app for personal finance, with user authentication and persistent storage.</p>
+        <ul>
+          <li>Tracks income and expenses, and manages savings goals.</li>
+          <li>Reports let users watch their spending from a single interface.</li>
+        </ul>
+        <a class="link" href="https://github.com/">View code on GitHub</a>
+      </div>
+    </details>
+
+    <details class="project">
+      <summary>
+        <span class="p-title">Market Management System</span>
+        <span class="tags"><b>C#</b><b>Windows Forms</b></span>
+      </summary>
+      <div class="p-body">
+        <p>A Windows application that runs inventory, billing and sales for a market business.</p>
+        <ul>
+          <li>Simple interface that streamlines product management and reporting.</li>
+          <li>Replaced manual tracking with a working inventory and billing system.</li>
+        </ul>
+        <a class="link" href="https://github.com/">View code on GitHub</a>
+      </div>
+    </details>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <time>Aug 2026 to present</time>
+        <h3>Front-End Developer Trainee, Digital Egypt Pioneers Initiative (DEPI)</h3>
+        <p>Intensive front-end track covering HTML, CSS, JavaScript, React.js and Next.js. I turned Figma files into pixel-accurate, responsive interfaces using component-based architecture, and built team projects with Git and GitHub.</p>
+      </li>
+      <li>
+        <time>Aug 2026 to Sept 2026</time>
+        <h3>Flutter Developer Intern, Findo Group</h3>
+        <p>Built and maintained cross-platform iOS and Android apps with Flutter and Dart. Translated Figma and Adobe XD wireframes into interactive components with custom animations, and refactored legacy UI to Material Design and Cupertino standards.</p>
+      </li>
+      <li>
+        <time>Oct 2025 to Jun 2026</time>
+        <h3>Web Development Volunteer, Google Developer Group, AASTMT Abu Qir</h3>
+        <p>Ran hands-on sessions on HTML, CSS, JavaScript and responsive design for student cohorts, and guided them through practical coding tasks.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <div><dt>Languages</dt><dd>JavaScript, PHP, Java, C++, C#, HTML5, CSS3</dd></div>
+      <div><dt>Frameworks</dt><dd>React.js, Next.js, Node.js, JavaFX</dd></div>
+      <div><dt>Database</dt><dd>PostgreSQL</dd></div>
+      <div><dt>Workflow</dt><dd>Git and GitHub, Figma-to-code, Agile and Scrum, Responsive design</dd></div>
+    </dl>
+    <p class="edu"><strong>Education:</strong> Bachelor of Computer Science, Arab Academy for Science, Technology &amp; Maritime Transport (AASTMT), expected Sept 2027.</p>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Let's build something</h2>
+    <p class="sub">I'm open to internships and junior front-end roles.</p>
+    <div class="actions">
+      <button class="btn primary" id="copy" type="button" data-email="moghareeboff@gmail.com">Copy email address</button>
+      <a class="btn" href="mailto:moghareeboff@gmail.com">Send an email</a>
+      <a class="btn" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="btn" href="https://github.com/">GitHub</a>
+    </div>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+  </section>
+</main>
+
+<footer class="foot">© <span id="year"></span> Ahmed Korani. Alexandria, Egypt.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
